@@ -7,8 +7,8 @@ Create a Service
 4. Command in flower-api folder : docker service create --name flower-api -p 8000:8000 --network flower_net --replicas 3 vasitpolherc/uploadpage .
 
 Push your service to DockerHub
-1. Command in uploadpagefolder  : docker push vasitpolherc/uploadpage
-2. Command in flower-api folder : docker push vasitpolherc/flower-api
+1. Command in uploadpagefolder    : docker push vasitpolherc/uploadpage
+2. Command in flower-api folder   : docker push vasitpolherc/flower-api
 
 VM instance
 1. Create 3 node on VM instance
