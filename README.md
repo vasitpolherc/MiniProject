@@ -1,6 +1,6 @@
 # MiniProject
 
-Create an Service
+Create a Service
 1. Make sure that you are in the flower-api or uploadpage folder
 2. Open your terminal and cd to project folder
 3. Command in uploadpagefolder  : docker service create --name uploadpage -p 80:80 --network flower_net --replicas 3 vasitpolherc/uploadpage .
